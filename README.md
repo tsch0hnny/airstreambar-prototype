@@ -1,4 +1,4 @@
-#Setup
+# Setup
 
 In order to set up this shiat, please add the line `include servers/airstreambar.nginx.conf;` after
 
