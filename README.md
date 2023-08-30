@@ -1,14 +1,9 @@
 #Setup
-In order to set up this shiat, please add the line ```
-include servers/airstreambar.nginx.conf;
- ```
-after
+In order to set up this shiat, please add the line `include servers/airstreambar.nginx.conf;` after
 
-```
-http {
-``` in the file /opt/homebrew/etc/nginx/nginx.conf (nginx needs to be installed with homebrew)
+`http {` in the file `/opt/homebrew/etc/nginx/nginx.conf` (nginx needs to be installed with homebrew)
 
-create airstreambar.nginx.conf in /opt/homebrew/etc/nginx/servers and add the following:
+create `airstreambar.nginx.conf` in `/opt/homebrew/etc/nginx/servers` and add the following:
 
 ```
 server {
