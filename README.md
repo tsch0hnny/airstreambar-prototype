@@ -1,6 +1,8 @@
 # Setup
 
-In order to set up this shiat, please add the line `include servers/airstreambar.nginx.conf;` after
+In order to set up this shiat, install tailwind `npm install -D tailwindcss` and init the project `npx tailwindcss init`.
+
+please add the line `include servers/airstreambar.nginx.conf;` after
 
 `http {` in the file `/opt/homebrew/etc/nginx/nginx.conf` (nginx needs to be installed with homebrew)
 
@@ -26,5 +28,4 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
     }
 }
-``` 
-and then run server.sh
+```
